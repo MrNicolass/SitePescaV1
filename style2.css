@@ -1,0 +1,233 @@
+*:focus {
+    outline: none;
+}
+* {
+            outline: none;
+			font-family: Arial, Helvetica, sans-serif;
+        }
+		::-webkit-input-placeholder {
+
+}
+			.p{
+			margin-left: 45%;
+			margin-top: 5.5%;
+			}
+			.p1{
+			margin-left: 10px;
+			}
+			.p2{
+			text-align: center;
+			font-size: 50px;
+			}
+			 .bot {
+            border-radius: 25px;
+            padding: 10px;
+            width: 165px;
+			height: 165px;
+            background-color:#333;
+                 border-color: white;
+                    color: white;
+            font-size:18px;
+            height: 50px;
+        }
+				.image{
+				margin-top: 1%;
+		width: 50%;
+		height: 40%;
+		border: 2px solid black;
+		border-radius: 6px;
+			}
+			.perfil{
+			opacity: 1;
+			transition: .5s ease;
+			}
+			.perfil:hover{
+			opacity: 0.3;
+			
+			}
+		 .botao2{
+		 text-align: center;
+			 border-radius: 10px;
+            padding: 10px;
+            width: 40%;
+			height: 16%;
+			text-align: center;
+            background-color:#68c2ff;
+                 border-color: white;
+                    color: white;
+            font-size:18px;
+			margin-top: 10%;
+			 }
+			  .botao3{
+		 text-align: center;
+			 border-radius: 10px;
+            padding: 10px;
+            width: 30%;
+			height: 12%;
+			text-align: center;
+            background-color:#68c2ff;
+                 border-color: white;
+                    color: white;
+            font-size:18px;
+			margin-top: 5%;
+			 }
+		.div{
+		 border: 1px solid black;
+		 color: black;
+			width: 20%;
+			height: 50%;
+			padding: 5px;
+			background:#BCD2EE;
+			text-align:center;
+			border-radius: 10px;
+	            float: left;
+				margin-top: 5%;
+				margin-left: 110.3px;
+				transition: all 0.5s;
+			}
+			.div2{
+		 border: 1px solid black;
+			width: 19.5%;
+			height: 43%;
+			padding: 5px;
+			background:#666666;
+			text-align:center;
+			border-radius: 10px;
+	            float: left;
+				margin: 2.5px;
+				transition: all 0.5s;
+				clear:both;
+			}
+			.div3{
+			border: 1px solid black;
+			width: 20%;
+			height: 50%;
+			padding: 5px;
+			background:#BCD2EE;
+			text-align:center;
+			border-radius: 10px;
+	            float: left;
+				margin-top: 5%;
+				margin-left: 110.3px;
+				transition: all 0.5s;
+			}
+			.div3:hover{
+			background-color:#a3a3a3;
+			color: white;
+			border: 2px solid black;
+			}
+			.div2:hover{
+			background-color:#a3a3a3;
+			color: white;
+			border: 2px solid black;
+			}
+			.div:hover{
+			background-color:#a3a3a3;
+			color: white;
+			border: 2px solid black;
+			}
+			.id{
+				width: 1200px;
+			height: 600px;
+			padding: 1px;
+			background:#005087;
+			margin: auto;
+			border-radius: 10px;
+			color: white;
+				}
+				.id1{
+				width: 1150px;
+			height: 550px;
+			padding: 10px;
+			background:#005087;
+			margin: auto;
+			border-radius: 10px;
+				}
+				.item  .price {
+					font-size: 24px;
+					}
+				#span{
+					margin: auto;
+					}
+					.qeum{
+						width: 1200px;
+			height: 600px;
+			padding: 10px;
+			background:#005087;
+			margin: auto;
+			border-radius: 10px;
+			text-align: left;
+			color: white;
+						}
+						#id1{
+							width: 1200px;
+			height: 600px;
+			padding: 1px;
+			background:#005087;
+			margin: auto;
+			border-radius: 5px;
+			color: white;
+			padding: 10px;
+							}
+							#sliderid{
+								width: 1200px;
+			height: 300px;
+			margin: auto;
+			border: 1px solid black;
+			border-radius: 2px;
+			color: white;
+			margin-bottom: 100px;
+								}
+								#lados{
+									float: right;
+									width: 100%;
+									height: 40%;
+									}
+									#lado{
+									width: 500px;
+									height: 80px;
+									float: left;
+										}
+										#lado1{
+									width: 180px;
+									height: 40px;
+									float: right;
+										}
+   .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #005087;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
